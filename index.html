@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/style.css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+<body>
+
+
+    <main>
+          <div class="main-container">
+
+              <div class="header">
+                <img src="/images/bg-main-mobile.png" alt="Main header block image">
+              </div>
+<div></div>
+              <div class="card-front">
+                <img src="/images/bg-card-front.png" alt="card Front image">
+                <p id="card-no">0000 0000 0000 0000</p>
+                <p id="name">JANE APPLESEED</p><span class="exp-date">00/00</span>
+              </div>
+
+              <div class="card-back">
+                <img src="/images/bg-card-back.png" alt="Card Back Image">
+                <p id="card-cvc">000</p>
+              </div>
+
+              <form action="#" onsubmit="return validateForm()">
+
+              <div class="section01">
+                <label for="name">CARDHOLDER NAME</label><br>
+                <input type="text" id="input-name" placeholder="e.g Jane Appleseed">
+                <br>
+                <label for="text">CARD NUMBER</label>
+                <br>
+                <input type="text" id="input-number" data-grouplength="4" pattern="[0-9]*" placeholder="e.g 1234 5678 9123 0000">
+              </div>
+              
+              <div class="section02">
+                <label for="expire date">EXP. DATE (MM/YY)</label>
+                <label for="CVC">CVC</label>
+              </div>
+              <div class="section03">
+                <input type="text" id="exp-month" placeholder="MM">  
+                <input type="text" id="exp-year" placeholder="YY">  
+                <input type="text" id="cvc" placeholder="e.g. 123">  
+              </div>
+
+                <p id="errorMsg"></p>
+                <input type="submit" id="submitBtn" value="Confirm">
+
+
+              </form>
+              <!-- Thank you container -->
+              <div class="thanks-container">
+
+                <img src="images/icon-complete.svg" alt="Icon-complete image">
+                <p>THANK YOU</p>
+                <p>We have added your card details</p>
+                <button class="continue">Continue</button>
+
+              </div>
+
+          </div>
+    </main>
+
+  <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  </footer>
+
+  <!-- script file -->
+
+  <script src="js/app.js"></script>
+  <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/masking-input.js" data-autoinit="true"></script>
+</body>
+</html>
