@@ -28,12 +28,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](/Screenshots/Screenshot_1png.png.jpg)
+![](./Screenshots/Screenshot_1png.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/](https://github.com/johnny064/interactive-card-details-form-main)
+- Live Site URL: [https://vercel.com/johnny064](https://interactive-card-details-form-main-swart.vercel.app/)
 
 ### Built with
 
@@ -63,7 +63,6 @@ continueBtn.addEventListener("click",function(){
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@johnny064](https://www.frontendmentor.io/profile/johnny064)
+- LinkedIn - [@kazi-monirul-islam9251](https://www.linkedin.com/in/kazi-monirul-islam9251)
 
